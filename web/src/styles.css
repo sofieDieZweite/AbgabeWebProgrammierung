@@ -112,6 +112,7 @@ body {
   .fragen{
     color: #BD343E;
     font-weight: 700;
+    margin:0;
   }
   .impressum{
     color:#BD343E;
@@ -122,4 +123,12 @@ body {
     margin-right: auto;
     display: flex;
     justify-content: center;
+  }
+  .text-impressum{
+    margin: 0;
+  }
+  .impressum-feld{
+    margin-left: 1rem;
+    margin-right: auto;
+    display: block;
   }

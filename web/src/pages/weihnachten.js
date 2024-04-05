@@ -16,7 +16,7 @@ export default function Weihnachten(){
             <p className="fragen">Wann:</p> <p> erster bis dritter Advent von 12 bis 16 Uhr</p>
             <p className="fragen">Preis:</p> <p> 10€ pro Person</p>
             <p className="fragen">Anmeldung:</p> <p>Rufen Sie uns an oder schreiben Sie uns eine E-Mail bei Interesse oder Fragen!</p>
-            <p className="fragen">Telefon:</p> <p> Tel. 030/377054 </p>
+            <p className="fragen">Telefon:</p> <p> 030/377054 </p>
             <p className="fragen">E-Mail:</p> <p> kuchenundcoteam@gmx.net</p>
         </div>
         </>)
