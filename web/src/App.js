@@ -6,6 +6,7 @@ import Halloween from "./pages/halloween";
 import Weihnachten from "./pages/weihnachten";
 import Impressum from "./pages/impressum";
 import Bewertung from "./pages/bewertung";
+import Sortiment from "./pages/sortiment";
 
 function App() {
   let component
@@ -30,6 +31,9 @@ function App() {
       break
     case "/weihnachten":
       component = <Weihnachten/>
+      break
+    case "/sortiment":
+      component = <Sortiment/>
       break
   }
   return (

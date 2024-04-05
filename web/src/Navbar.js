@@ -2,6 +2,7 @@ export default function Navbar(){
     return <nav className="nav">
         <a href="/" className="Kuchen&Co">Kuchen & Co</a>
         <ul>
+            <CustomLink href="/sortiment">Sortiment</CustomLink>
             <CustomLink href= "/event">Events</CustomLink>
             <CustomLink href= "/quiz">Quiz</CustomLink>
         </ul>

@@ -26,7 +26,7 @@ export default function Home(){
             <div className="cupcake">
                 <img className="img-fluid" src="backen.jpg" alt="Kuchen"></img>
             </div>
-            <div className="textfeld-rechts">
+            <div className="textfeld-links">
                 <p>Mein Ehemann und ich backen schon seit wir klein sind. Die Liebe für Gebäck hat uns auch im Jahr 1985 bei unserer Konditorausbildung in Paris zusammengeführt.
                 </p>
                 <p>Jetzt haben wir uns endlich unseren Traum einer gemeinsamen Bäckerei erfüllt.
