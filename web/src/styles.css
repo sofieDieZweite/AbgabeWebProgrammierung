@@ -17,7 +17,6 @@ body {
     height: 3rem;
     font-size: 20pt;
     justify-content: space-between;
-    align-items: center;
     gap: 2rem;
     padding: 0 1rem;
     background-color: #BD343E;
@@ -142,5 +141,6 @@ body {
   }
   .quiz{
     padding: 0.5rem;
-
+    display:block;
   }
+  

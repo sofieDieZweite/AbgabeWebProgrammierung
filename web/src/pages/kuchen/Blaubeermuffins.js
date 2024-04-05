@@ -2,7 +2,7 @@ export default function Blaubeermuffins(){
     return (
         <>
             <div class="card" styles={{width: '18rem'}}>
-                <img src="schokokuchen.jpg" class="card-img-top" alt="..."/>
+                <img src="blaubeermuffins.jpg" class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Blaubeermuffins</h5>
                     <p class="card-text">Blaubeeren umhüllt von einem luftigen Vanilleteig werden zum Star auf jedem Buffet!</p>

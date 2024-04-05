@@ -23,7 +23,7 @@ export default function Erdbeerkuchen(){
                 <ul class="list-group list-group-flush">
                     <div class= "card-grid">
                         <p class="fragen">passender Anlass</p>
-                        <p>allgemein & formell</p>
+                        <p>allgemein</p>
                     </div>
                 </ul>
             </div>

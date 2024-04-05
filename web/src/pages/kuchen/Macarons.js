@@ -17,7 +17,7 @@ export default function Macarons(){
                 <div className="card-div">
                     <div class="card-grid">
                         <p class="fragen">Anzahl</p>
-                        <p>10 Stücken</p>
+                        <p>10 Stück</p>
                     </div>
                 </div>
                 <ul class="list-group list-group-flush">
