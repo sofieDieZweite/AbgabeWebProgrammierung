@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Quiz from "./pages/quiz";
 import Event from "./pages/event";
 import Home from "./pages/home";
-import Halloween from "./pages/halloween."; 
+import Halloween from "./pages/halloween"; 
 import Weihnachten from "./pages/weihnachten";
 import Impressum from "./pages/impressum";
 import Bewertung from "./pages/bewertung";
@@ -25,7 +25,7 @@ function App() {
     case "/bewertung":
       component = <Bewertung/>
       break
-    case "/impreeum":
+    case "/impressum":
       component = <Impressum/>
       break
     case "/weihnachten":
@@ -35,6 +35,9 @@ function App() {
   return (
   <>  <Navbar/>
       {component}
+      <div className="center">
+        <a className="impressum" href="/impressum">Impressum</a>
+      </div>
   </>
   )
 }
