@@ -8,6 +8,8 @@ import Zitronentorte from "./kuchen/Zitronentorte"
 import Nusskuchen from "./kuchen/Nusskuchen"
 import Macarons from "./kuchen/Macarons"
 import Blaubeermuffins from "./kuchen/Blaubeermuffins"
+
+//beschreibt den Aufbau der Sortimentseite
 export default function Sortiment(){
 return (
     <>

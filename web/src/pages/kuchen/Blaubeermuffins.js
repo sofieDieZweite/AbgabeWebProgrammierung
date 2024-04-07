@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Blaubeermuffins
 export default function Blaubeermuffins(){
     return (
         <>

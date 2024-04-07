@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Nusskuchen
 export default function Nusskuchen(){
     return (
         <>

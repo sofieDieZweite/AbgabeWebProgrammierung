@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Zitronenkuchen
 export default function Zitronenkuchen(){
     return (
         <>

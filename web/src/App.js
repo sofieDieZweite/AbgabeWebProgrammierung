@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-import Quiz from "./pages/quiz";
 import Event from "./pages/event";
 import Home from "./pages/home";
 import Halloween from "./pages/halloween"; 
@@ -10,6 +9,7 @@ import Sortiment from "./pages/sortiment";
 
 import KommentarSeite from "./pages/kommentarseite";
 
+//beschreibt den Aufbau der Single-Page-Application
 function App() {
   let component
   switch(window.location.pathname){

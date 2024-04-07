@@ -1,3 +1,4 @@
+//Beschreibt den Aufbau der Impressumsseite
 export default function Impressum(){
     return (<>
         <div>

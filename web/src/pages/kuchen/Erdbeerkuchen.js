@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Erdbeerkuchen
 export default function Erdbeerkuchen(){
     return (
         <>

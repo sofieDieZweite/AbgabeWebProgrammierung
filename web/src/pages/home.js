@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Startseite
 export default function Home(){
     return (
     <>

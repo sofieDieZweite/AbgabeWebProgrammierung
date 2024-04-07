@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Apfelkuchen
 export default function Apfelkuchen(){
     return (
         <>

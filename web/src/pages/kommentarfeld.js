@@ -2,24 +2,23 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const KommentarFeld = () => {
-    // Zustände für Buchdaten
+    // Zustände für Kommentare
     const [author, setAuthor] = useState('');
     const [content, setContent] = useState('');
 
     
-    // Event-Handler für das Hinzufügen von Büchern
+    // Fügt neue Kommentare zum server hinzu
     const AddComment = async () => {
-      // Sammle die eingegebenen Buchdaten
-      const newBook = {
+      const newComment = {
         author: author,
         content: content
       };
   
       try {
-        // Sende eine Anfrage an den Backend-Server mit den Wunschbücherdaten 
-        const response = await axios.post('http://localhost:5000/api/comments', newBook);
+        // Sende eine Anfrage an den Backend-Server mit dem neuen Kommentar
+        const response = await axios.post('http://localhost:5000/api/comments', newComment);
         console.log('Kommentar wurde erfolgreich hinzugefügt:', response.data);
-        // Die Benutzeroberfläche aktualisieren
+        // aktualisiert die Bedienoberfläche
         window.location.reload();
       } catch (error) {
         console.error('Fehler beim Hinzufügen des Kommentars:', error);
@@ -27,16 +26,17 @@ const KommentarFeld = () => {
       }
     };
     
-  
+//beschreibt den Teil der Kommentarseite, der die Eingabe neuer Kommentare darstellt
     return (<>
-          <div className="container text-center">
-              <div className="row">
-                  <div className='col'><input className="inputfield" type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="dein Name" /></div>
-                  <div className='col'><input className="inputfield" type="text" value={content} onChange={(e) => setContent(e.target.value)} placeholder="Kommentar" /></div>
+          <div className="kommentar-eingabe">
+              <div className='grid-container'>
+                  <div><input className="inputfield" type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="dein Name" /></div>
+                  <div><input className="inputfield" type="text" value={content} onChange={(e) => setContent(e.target.value)} placeholder="Kommentar" /></div>
               <div/>
-              <div className="optionen-buttons">
-                            <button className="btn-event" onClick={AddComment}>Kommentieren</button></div>
+              
               </div>
+              <div className="btn-kommentar">
+                            <button className="btn-event" onClick={AddComment}>Kommentieren</button></div>
           </div>
       </>
     );

@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Cupcakes
 export default function Cupcakes(){
     return (
         <>

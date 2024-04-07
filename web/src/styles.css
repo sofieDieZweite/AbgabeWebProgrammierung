@@ -79,6 +79,7 @@ body {
     color:#FFF7F2;
     padding: 10px;
     border-radius: 10px;
+    border-color: transparent;
   }
   .events{
     display: grid;
@@ -143,4 +144,56 @@ body {
     padding: 0.5rem;
     display:block;
   }
-  
+  .inputfield{
+    background-color:#ffd7d6;
+    border-color: transparent;
+    border-radius: 2rem;
+    width: 100%;
+    
+  }
+  .inputfield:focus{
+    border-color: #ce656e;
+    outline: none;
+  }
+  .kommentar-information{
+    color: #BD343E;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .kommentar-eingabe{
+    background-color: #ce656e;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn-kommentar{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .kommentar-headline{
+    color: #BD343E;
+    display: flex;
+    justify-content: center;
+  }
+  .alte-kommentare{
+    display: grid;
+    grid-template-columns: auto auto;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    background-color:#ffd7d6;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  .alte-kommentare-block{
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }

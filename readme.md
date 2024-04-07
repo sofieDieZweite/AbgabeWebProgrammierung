@@ -1,11 +1,14 @@
-Webprogrammierungsprojekt
+# Webprogrammierungsprojekt
 
 Ersteller Sofie Wagner
 
-Installationshinweise
+## Installationshinweise
 
-NodeJs mit npm bereits installiert
-in das Verzeichnis des web Ordners gehen
+1. NodeJs mit npm muss bereits installiert sein
+2. im Terminal in den Server-Ordner navigieren mit dem Befehl
+cd server
+3. eine neues Terminal öffnen
+4. dort in das Verzeichnis des web Ordners navigieren mit dem Befehl
 cd web
-Start über befehl 
+5. Start über befehl 
 npm start

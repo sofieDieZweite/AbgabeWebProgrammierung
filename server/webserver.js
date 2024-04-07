@@ -19,7 +19,7 @@ app.use(cors({
 
 let comments = loadComments(dataFilePath);
 
-// Funktion zum Laden von Daten aus einer Datei (Wunschliste oder Bücherliste)
+// Funktion zum Laden von Daten aus der comments.json datei
 function loadComments(filePath) {
   try {
     const data = fs.readFileSync(filePath);
@@ -30,7 +30,7 @@ function loadComments(filePath) {
   }
 }
 
-// Funktion zum Speichern von Daten in eine Datei (in die Wunschliste oder Bücherliste)
+// Funktion zum Speichern von Daten in der comments.json datei
 function saveComments(data, filePath) {
   try {
     fs.writeFileSync(filePath, JSON.stringify(data));
@@ -39,16 +39,16 @@ function saveComments(data, filePath) {
   }
 }
 
-// Hinzufügen eines Buches in Bücherdatei (books.json)
+// Hinzufügen eines Kommentars in der comments.json datei
 app.post('/api/comments', (req, res) => {
   const { author, content } = req.body;
   const newComment = { author,content };
   comments.push(newComment);
   saveComments(comments, dataFilePath);
-  res.status(200).send('Buch erfolgreich hinzugefügt');
+  res.status(200).send('Kommentar erfolgreich hinzugefügt');
 });
 
-// Alle Bücher aus der Datei books.json abrufen
+// Alle Kommentare aus der comments.json datei abrufen
 app.get('/api/comments', (req, res) => {
   res.json(comments);
 });

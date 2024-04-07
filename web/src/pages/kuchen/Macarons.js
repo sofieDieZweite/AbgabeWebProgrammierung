@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Macarons
 export default function Macarons(){
     return (
         <>

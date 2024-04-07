@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Schokomuffins
 export default function Schokomuffin(){
     return (
         <>

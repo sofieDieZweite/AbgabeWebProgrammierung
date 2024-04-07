@@ -1,4 +1,4 @@
-//beschreibt die E-ventseite
+//beschreibt den Aufbau der Eventseite
 export default function Event(){
     return (<>
                 <div>

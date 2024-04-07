@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Karte von Schokokuchen
 export default function Schokokuchen(){
     return (
         <>

@@ -1,3 +1,4 @@
+//beschreibt den Aufbau der Weihnachtsbackenseite
 export default function Weihnachten(){
     return (<>
         <div>

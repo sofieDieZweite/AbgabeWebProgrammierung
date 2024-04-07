@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 const Kommentare = () => {
   const [comments, setComments] = useState([]);
 
@@ -18,26 +19,20 @@ const Kommentare = () => {
 
     fetchComments();
   }, []);
-
+  //beschreibt den Aufbau vom Teil der Kommentarseite, der bereits vorhandene Kommentare darstellt
   return (
     <div>
-      <h2>Alle Kommentare</h2>
-      <table>
-        <thead>
-            <tr>
-            <th>Autor</th> 
-            <th>Kommentar</th>
-            </tr>
-        </thead>
-        <tbody>   
+      <div className='kommentar-headline'>
+        <h2 >Alle Kommentare</h2>
+      </div>
+      <div className='alte-kommentare-block'>
             {comments.map((comment, index) => (
-            <tr key={index}>
-                <td>{comment.author}</td>
-                <td>{comment.content}</td>
-                </tr>
+            <div className='alte-kommentare' key={index}>
+                <div>{comment.author}</div>
+                <div>{comment.content}</div>
+                </div>
                 ))}
-        </tbody>
-      </table>
+      </div>
     </div>
   );
 };
