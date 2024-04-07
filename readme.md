@@ -10,5 +10,5 @@ cd server
 3. eine neues Terminal öffnen
 4. dort in das Verzeichnis des web Ordners navigieren mit dem Befehl
 cd web
-5. Start über befehl 
+5. Start des Projektes über den Befehl 
 npm start
