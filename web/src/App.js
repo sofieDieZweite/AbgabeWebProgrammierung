@@ -8,6 +8,8 @@ import Impressum from "./pages/impressum";
 import Bewertung from "./pages/bewertung";
 import Sortiment from "./pages/sortiment";
 
+import KommentarSeite from "./pages/kommentarseite";
+
 function App() {
   let component
   switch(window.location.pathname){
@@ -17,8 +19,8 @@ function App() {
     case "/event":
       component = <Event/>
       break;
-    case "/quiz":
-      component = <Quiz/>
+    case "/kommentarseite":
+      component = <KommentarSeite/>
       break;
     case "/halloween":
       component = <Halloween/>
@@ -42,6 +44,7 @@ function App() {
       <div className="center">
         <a className="impressum" href="/impressum">Impressum</a>
       </div>
+
   </>
   )
 }

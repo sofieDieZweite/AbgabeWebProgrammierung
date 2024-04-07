@@ -4,7 +4,7 @@ export default function Navbar(){
         <ul>
             <CustomLink href="/sortiment">Sortiment</CustomLink>
             <CustomLink href= "/event">Events</CustomLink>
-            <CustomLink href= "/quiz">Quiz</CustomLink>
+            <CustomLink href= "/kommentarseite">Kommentare</CustomLink>
         </ul>
     </nav>
 }

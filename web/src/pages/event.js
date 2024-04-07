@@ -1,10 +1,11 @@
+//beschreibt die E-ventseite
 export default function Event(){
     return (<>
                 <div>
                     <h1 className="headline">Events</h1>
                 </div>
                 <div className="events">
-                    <div className="card" styles={{width: '10rem'}}>
+                    <div className="card" styles={{width: '18rem'}}>
                         <img src="halloween.jpg" className="card-img-top" alt="kuchen"/>
                         <div className="card-body">
                             <h5 className="card-title">Halloween Backen</h5>

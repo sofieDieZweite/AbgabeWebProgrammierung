@@ -1,3 +1,4 @@
+//beschreibt die Kuchen Bewertungsseite
 export default function Bewertung(){
     return (<>
     <div>
